@@ -12,5 +12,8 @@ public class Main {
         System.out.println("Press ENTER to show 'Task #1'");
         scanner.nextLine();
         Task1.showTime();
+        System.out.println("Press ENTER to show 'Task #2'");
+        scanner.nextLine();
+        Task2.findLuckyTickets();
     }
 }
